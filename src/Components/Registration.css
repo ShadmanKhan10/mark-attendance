@@ -1,0 +1,172 @@
+.circle-containing-div {
+  /* border: 2px solid black; */
+  height: 60vw;
+  width: 50vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.circle-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+.line-containing-div {
+  /* border: 2px solid black; */
+  height: 100vh;
+  /* width: 12vw; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.line-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+.topGear-containing-div {
+  /* border: 2px solid black; */
+  height: 25vw;
+  width: 25vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.topGear-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+.page-containing-div {
+  /* border: 2px solid yellow; */
+  height: 100vw;
+  width: 100vw;
+}
+.input-containing-div {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vw;
+  margin-top: 25vw;
+}
+input::placeholder {
+  color: white;
+}
+.name-containing-div {
+  position: relative;
+}
+.user-icon-containing-div {
+  border-right: 0.5vw solid white;
+  height: 10vw;
+  width: 10vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  width: 65vw;
+  height: 10vw;
+  background: transparent;
+  border: 0.5vw solid white;
+  border-radius: 2vw;
+  outline: none;
+  color: white;
+  font-family: "NGC Din";
+  padding-left: 12vw;
+  font-size: 4vw;
+}
+.employee-containing-div {
+  position: relative;
+}
+
+.employee-icon-containing-div {
+  border-right: 0.5vw solid white;
+  height: 10vw;
+  width: 10vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  height: 6vw;
+  width: 5vw;
+  object-fit: contain;
+}
+
+.department-containing-div {
+  position: relative;
+}
+
+.department-icon-containing-div {
+  border-right: 0.5vw solid white;
+  height: 10vw;
+  width: 10vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn {
+  width: 35vw;
+  height: 10vw;
+  margin-top: 15vw;
+  border: none;
+  background-color: #43caff;
+  border-radius: 7vw;
+  cursor: pointer;
+  color: black;
+  font-family: "NGC Din";
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.loading-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.loader {
+  border: 2vw solid #f3f3f3;
+  border-top: 2vw solid #3498db;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

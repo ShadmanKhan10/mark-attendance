@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #122c68;
+  font-family: "NGC Din";
+}
+@font-face {
+  font-family: "NGC Din";
+  src: url("./assets/NGCDinRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

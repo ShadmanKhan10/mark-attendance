@@ -1,0 +1,10 @@
+.loggedInContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.loggedInText {
+  margin-top: 35vw;
+  text-align: center;
+  color: white;
+}
